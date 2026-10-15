@@ -1,0 +1,21 @@
+# Build Outputs
+backend/target/
+frontend/dist/
+frontend/node_modules/
+
+# Local databases and runtime storage
+data/
+*.db
+*.mv.db
+*.trace.db
+
+# Environment and sensitive secrets
+.env
+*.local
+
+# IDE and OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
